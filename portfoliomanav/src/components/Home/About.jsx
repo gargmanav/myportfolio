@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
+import useDispatch from 'react-redux';
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -10,6 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 
 const About = () => {
+  const disptac = usedispatch()
     return (
         <Container fluid className="home-about-section" id="about">
           <Container>
